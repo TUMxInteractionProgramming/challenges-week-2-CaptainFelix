@@ -1,0 +1,117 @@
+/* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          
+
+/*Global*/
+* {
+    /* global font, no padding, no margin */
+    font-family: 'Arial', sans-serif;
+    padding: 0pt;
+    margin: 0px;
+}
+
+body {
+    /* global background */
+    background-color: #F5F5F5;
+}
+
+
+/*App bar*/
+h1 {
+    /* background and font color of app bar */
+    background-color: #3F51B5;
+    color: white;
+}
+
+/*Channels list*/
+ul {
+    /* style and background color of channel list*/
+    list-style-type: none;
+    background-color: white; 
+}
+/* selected channelk is highlighted in channel list*/
+ul .selected-channel {
+    color: #3F51B5;
+    border-left: 4px solid #3F51B5;
+}
+/* styling of channel list*/
+ul li {
+    padding: 16px;
+    border-bottom: 1px solid #F5F5F5;
+    font-size: 16px;
+    height: 48px;
+    box-sizing: border-box;
+    }
+ul img {
+    vertical-align: middle;
+}
+
+/*Tab bar*/
+/*background color of Tab bar*/
+#tab-bar {
+    background-color: white; 
+}
+/*styling of tab bar buttons*/
+#tab-bar button {
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    height: 72px;
+    width: 33%;
+    padding: 16px;
+}
+/*image on top of text in tap bar*/
+#tab-bar img {
+    display: block;
+    margin: 0 auto 4px auto;
+}
+/*highlighting of selected button in tab bar*/
+#tab-bar .selected-button {
+border-bottom: 4px solid #3F51B5; 
+}
+/*Messages*/
+/*styling of messages*/
+.message {
+    width: 80%;
+    margin: 0 0 8px 2.5%;
+    text-align: left;
+}
+/*inverting of own message*/
+.own-message {
+    width: 80%;
+    margin: 0 0 8px 17.5%;
+    text-align: left; 
+}
+h3 {
+    /* #2 #font #metadata is now medium */
+    font-size: medium;
+}
+/*styling of message text*/
+p {
+    background-color: white;
+    padding: 16px;
+}
+/*styling of ttl buttons*/
+.message button {
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;
+}
+/*styling of location links*/
+.message a {
+    color: black;
+}
+strong {
+    text-transform: uppercase;
+}
+em {
+    /* #2 #font #remaining overrides the default italic appearance of em elements*/
+    font-size: larger;
+    font-style: normal;
+}
